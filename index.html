@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简易计算器</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="num1">
+        <select name="se" id="method">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">×</option>
+            <option value="4">÷</option>
+        </select>
+        <input type="text" id="num2"> =
+        <span id="result"></span>
+        <br>
+        <button onclick="calculate()">计算</button>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
